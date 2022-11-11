@@ -7,12 +7,12 @@ import {MatButtonModule} from '@angular/material/button';
 import {MatSidenavModule} from '@angular/material/sidenav';
 import {MatIconModule} from '@angular/material/icon';
 import {MatToolbarModule} from '@angular/material/toolbar';
-import { DefaultComponent } from './admin/default/default.component';
-import { SidebarComponent } from './admin/shard/sidebar/sidebar.component';
-import { DashboardComponent } from './admin/dashboard/dashboard.component';
+import { DefaultComponent } from './page/default/default.component';
+import { SidebarComponent } from './page/shard/sidebar/sidebar.component';
+import { DashboardComponent } from './page/dashboard/dashboard.component';
 import {MatCardModule} from '@angular/material/card';
 import {MatInputModule} from '@angular/material/input';
-import { PostComponent } from './admin/dashboard/posts/posts.component';
+import { PostComponent } from './page/dashboard/posts/posts.component';
 
 
 const Ux_Modules = [
